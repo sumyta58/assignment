@@ -1,0 +1,156 @@
+.body{
+    margin: 10px;
+}
+.h1{
+    font-size: 50px;
+
+}
+.button1{
+    outline: none;
+    display: block;
+    background-color: rgb(255, 94, 0);
+    padding: 16px 30px;
+    color: white;
+    border-radius: 30px;
+    border:0;
+    font-size: 15px;
+    font-weight: 500;
+    cursor: pointer;
+    line-height: 1;
+    transition: all 0.3s linear;
+    font-family: monospace;
+
+}
+.button1:hover{
+    background-color:rgb(17, 15, 15);
+    border:2px solid rgb(255, 94, 0);
+    color: black;
+
+}
+.image1{
+    display: flex;
+}
+.first_Div{
+display: flex;
+flex-direction: row;
+
+}
+.div1{
+ padding-top: 40px;
+ padding-left: 250px;
+ width: 500px;
+ height: 400px;
+}
+
+.div2{
+
+ 
+ height: 430px;
+ margin-right: 10px;
+
+}
+
+.second_div{
+    
+    margin-top: 90px;
+    position:relative;
+   
+}
+.imgA1 {position:absolute;  top: 0px; left: 0px; z-index: 1; } 
+.imgB1 { position:absolute; top: 97px; left: 100px; z-index: 3; } 
+.aboutme{
+    margin-top: 150px;
+    margin-right: 350px;
+    float: right;
+    width: 300px;
+    height: 300px;
+}
+.button3{
+    margin-top: 50px;
+    outline: none;
+    display: block;
+    background-color: rgb(255, 94, 0);
+    padding: 16px 30px;
+    color: white;
+    border-radius: 30px;
+    border:0;
+    font-size: 15px;
+    font-weight: 500;
+    cursor: pointer;
+    line-height: 1;
+    transition: all 0.3s linear;
+    font-family: monospace;
+
+}
+.button3:hover{
+    background-color:white;
+    border:2px solid rgb(255, 94, 0);
+    color: black;
+
+}
+
+.third_div{
+    margin-top: 700px;
+}
+.card_container{
+    position: relative;
+    width: 100px;
+    display: flex;
+    height: 48vh;
+    padding: 1px;
+    background-position: center;
+    flex-direction: row;
+    margin-top: 10px;
+    box-sizing: border-box;
+    margin-top: 10px;
+    margin-left: 300px;
+    margin-right: 50px;
+    
+    
+  
+  }
+.cards{
+    margin-left: 10px;
+    box-shadow: 5px 10px #e0d8d8;
+    flex: 2;
+    background: white;
+    margin-right: 10px;
+    font-size: 12px;
+    font-family: 'Roboto',sans-serif;
+    justify-content: center;
+    padding: 15px;
+    text-align:right;
+    box-sizing: border-box;
+    display: inline-block;
+    justify-content: space-between;
+   
+  }
+  .cards img{
+    width: 250px;
+    height: 200px;
+    border-radius: 20px;
+  }
+  .list{
+    margin-top: 40px;
+    background-color: cornsilk;
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-around;
+  }
+
+.last_div{
+    line-height: 30px;
+    text-align: center;
+    margin-top: 40px;
+    background-color: black;
+    height: 150px;
+    width: 100%;
+    color: white;
+}
+.lasth3{
+    margin-top: 30px;
+}
+a{
+    text-decoration: none;
+    color: rgb(236, 230, 230);
+}
